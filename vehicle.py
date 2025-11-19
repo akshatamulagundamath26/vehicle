@@ -2,7 +2,7 @@ import sys
 
 def print_vehicle_info():
     if len(sys.argv) != 5:
-        print("Usage: python vehicle_registration.py <car_number> <owner_name> <vehicle_type> <rc_expiry_year>")
+        print("Usage: python vehicle.py <car_number> <owner_name> <vehicle_type> <rc_expiry_year>")
         sys.exit(1)
 
     car_number = sys.argv[1]
