@@ -7,7 +7,7 @@ if len(sys.argv) == 5:
     rc_expiry_year = sys.argv[4]
     print("User inputs provided")
 else:
-    car_number = "KA01AB1234"
+    car_number = "1234"
     owner_name = "xyz"
     vehicle_type = "abc"
     rc_expiry_year = "2025"
